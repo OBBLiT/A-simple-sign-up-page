@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(0, 32, 57);
+  display: flex;
+  justify-content: center;
+}
+#form{
+  position: absolute;
+  top: 35vh;
+  min-height: 20vh;
+  display: flex;
+  flex-flow: column;
+  gap: 1vmax;
+  border: solid rgb(18, 152, 248) 0.5vmax;
+  padding: 3vmax;
+  background-color: rgb(157, 213, 253);
+  border-radius: 2vmax;
+  align-items: center;
+  justify-content: center;
+}
+#username{
+  background-color: aquamarine;
+  border-radius: 1vmax;
+}
+#tel{
+  background-color:rgb(37, 250, 126);
+  border-radius: 1vmax;
+}
+.password{
+  border-radius: 1vmax;
+  background-color: aqua;
+}
+#submit{
+  border-radius: 1vmax;
+  border: solid 0.3vmax rgb(0, 47, 47);
+  background-color: rgb(3, 96, 99);
+  width: 9vmax;
+  color: rgb(163, 255, 255);
+}
+#submit:hover{
+  background-color: rgb(14, 121, 125);
+}
+#submit:active{
+  background-color: rgb(44, 175, 175);
+}
+@keyframes form {
+  
+}
+@keyframes button {
+  
+}
