@@ -3,4 +3,4 @@ A simple sign-up page written in HTML CSS and JavaScript.
 ## Preview the page
 [preview](https://ssup-newpage.netlify.app/)
 ## Some ScrenShots of the page
-(assets/Screenshot%20(9).jpg)
+<img src="https://github.com/OBBLiT/A-simple-sign-up-page/blob/main/assets/Screenshot%20(10).jpg"/>
