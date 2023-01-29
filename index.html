@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Create Account</title>
+  </head>
+  <body >
+    <form action="/success.html" id="form">
+      <div>
+        <input type="text" name="usrnm" id="username" placeholder="username" />
+        <span id="username_error_symbol" style="color: red;">✘</span>
+      </div>
+      <div>
+        <input type="tel" name="tel" id="tel" placeholder="phone number" />
+        <span id="tel_error_symbol" style="color: red;">✘</span>
+      </div>
+      <div>
+        <input
+          type="password"
+          name="pswrd"
+          id="password"
+          class="password"
+          placeholder="password"
+        />
+        <span id="password_error_symbol" style="color: red;">✘</span>
+      </div>
+      <div>
+        <input
+          type="password"
+          name="confirmpswrd"
+          class="password"
+          id="confirmPassword"
+          placeholder="confirm password"
+        />
+        <span id="confirmPassword_error_symbol" style="color:red;">✘</span>
+      </div>
+      <input type="submit" value="Create" id="submit" />
+      <span id="usrError"></span>
+      <span id="usrHint"></span>
+      <span id="telError"></span>
+      <span id="confirmPswrdError"></span>
+      <span id="pswrdError">
+        <div id="pswrdCap"></div>
+        <div id="pswrdSm"></div>
+        <div id="pswrdNum"></div>
+        <div id="pswrdSym"></div>
+      </span>
+    </form>
+    <script src="/index.js"></script>
+  </body>
+</html>
